@@ -1,0 +1,95 @@
+.container{
+display:table;
+margin: auto;
+width: 935;
+background-color: white;
+}
+.three-columns{
+max-width: 293px;
+max-height: 293px;
+padding: 5px 5px 5px 5px;
+display: inline-block;
+float: center;
+}
+
+.avatar {
+vertical-align: middle;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+left: 45px;
+background-position: top left;
+background-size: cover;
+padding: 10px 250px 10px;
+clear: both;
+}
+
+section{
+display: block;
+
+}
+
+.index-h1{
+font-family: verdana,arial:;
+font-size: 28px;
+line-height: 24px;
+word-wrap: break-word;
+padding:4px 0px 4px 5px;
+position: relative;
+left: 490px;
+top:-60px;
+clear:both;
+}
+
+.index-h2{
+font-family: verdana,arial:;
+font-size: 14px;
+line-height: 24px;
+word-wrap: break-word;
+padding:4px 100px 4px 500px;
+position:relative;
+clear: both;
+}
+
+.wrapper{
+width: 100%;
+}
+
+@media only screen and (max-width:px) {
+  .index-h2{
+  font-family: verdana,arial:;
+  font-size: 14px;
+  line-height: 24px;
+  word-wrap: break-word;
+  padding:10px 10px 10px 10px;
+  position:relative;
+  clear: both;
+  font-size: 0;
+  }
+  .avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 45px;
+  background-position: top left;
+  background-size: cover;
+  padding: 10px 10px 10px;
+  clear: both;
+  }
+  .index-h1{
+  font-family: verdana,arial:;
+  font-size: 28px;
+  line-height: 24px;
+  word-wrap: break-word;
+  padding:10px 10px 10px 10px;
+  position: relative;
+  left: 490px;
+  top:-60px;
+  clear:both;
+  }
+
+@
+
+
+}
